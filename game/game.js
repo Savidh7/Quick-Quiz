@@ -50,7 +50,7 @@ getNewQues = () => {
     if (availableQues.length === 0 || quesCounter >= MaxQues){
         localStorage.setItem("mostRecentScore", score);
         // goto end page
-        return window.location.assign('/end/end.html');
+        return window.location.assign('../end/end.html');
     } 
 
     quesCounter++;
